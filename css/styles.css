@@ -516,6 +516,9 @@ gap: 16px;
     color:inherit;
 
 }
+.foooter-subscribe-container{
+    margin-left: 80px;
+}
 .footer-subscribe-title{
     margin-bottom: 16px; 
     font-weight: 500; 
@@ -584,7 +587,7 @@ gap: 16px;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.backdrop .is-open {
+.backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -632,7 +635,7 @@ gap: 16px;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-button:hover .icon-modal-close, .modal-button:focus .icon-modal-close{
+.modal-button:hover .icon-modal-close .modal-button:focus .icon-modal-close{
     fill: #ffffff;
 
 }
@@ -708,7 +711,7 @@ letter-spacing: 0.48px;
 .modal-form-commnent::placeholder{
     color: rgba(46, 47, 66, 0.4);
 }
-.form-input:focus, .modal-form-comment:focus{
+.form-input:focus .modal-form-comment:focus{
     border-color: #4d5ae5;
   outline-color: transparent;
   outline-offset: 4px;
@@ -745,7 +748,7 @@ letter-spacing: 0.48px;
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
-.footer-form-accept-checkbox:checked + .form-accept-label, .form-accept-checkbox-label{
+.footer-form-accept-checkbox:checked + .form-accept-label .form-accept-checkbox-label{
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
@@ -754,10 +757,11 @@ letter-spacing: 0.48px;
     border: none;
 }
 
-.footer-form-accept-checkbox:focus + .form-accept-label, .form-accept-checkbox-label{
+.footer-form-accept-checkbox:focus + .form-accept-label .form-accept-checkbox-label{
     border: 1px solid #4d5ae5;
 }
-.form-accept-label, .privacy-policy{
+.form-accept-label
+ .privacy-policy{
     color: #4d5ae5;
     text-decoration-line: underline;
 }
@@ -778,7 +782,7 @@ letter-spacing: 0.48px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-btn-send:hover,
+.form-btn-send:hover
 .form-btn-send:focus {
   background-color: #404bbf;
 }
