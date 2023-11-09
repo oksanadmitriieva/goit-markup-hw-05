@@ -687,7 +687,7 @@ letter-spacing: 0.48px;
 .form-input:focus{
     border-color: #4D5AE5; 
 }
-.modal-button:hover
+.modal-button:hover,
 .modal-button:focus
 {
     background-color: #404bbf;
@@ -704,6 +704,9 @@ letter-spacing: 0.48px;
 }
 .modal-form-input-container{
     margin-bottom: 16px;
+}
+.modal-form-container{
+    margin-bottom: 8px; 
 }
 .modal-form-comment{
 width: 100%;
