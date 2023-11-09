@@ -687,6 +687,13 @@ letter-spacing: 0.48px;
 .form-input:focus{
     border-color: #4D5AE5; 
 }
+.modal-button:hover
+.modal-button:focus
+{
+    background-color: #404bbf;
+    fill: #ffffff;
+    border: none;
+}
 .modal-icon{
     position: absolute;
     top: 50%;
